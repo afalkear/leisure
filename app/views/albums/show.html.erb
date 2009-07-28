@@ -1,0 +1,68 @@
+<p>
+  <b>Name:</b>
+  <%=h @album.name %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%=h @album.artist %>
+</p>
+
+<p>
+  <b>Song:</b>
+  <%=h @album.song %>
+</p>
+
+<p>
+  <b>Tag:</b>
+  <%=h @album.tag %>
+</p>
+
+<p>
+  <b>Listened to:</b>
+  <%=h @album.listened_to %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%=h @album.rating %>
+</p>
+
+<p>
+  <b>Mood:</b>
+  <%=h @album.mood %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%=h @album.image_url %>
+</p>
+
+<p>
+  <b>Review:</b>
+  <%=h @album.review %>
+</p>
+
+<p>
+  <b>Links:</b>
+  <%=h @album.links %>
+</p>
+
+<p>
+  <b>Recommended by:</b>
+  <%=h @album.recommended_by %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%=h @album.year %>
+</p>
+
+<p>
+  <b>Date added:</b>
+  <%=h @album.date_added %>
+</p>
+
+
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Back', albums_path %>
